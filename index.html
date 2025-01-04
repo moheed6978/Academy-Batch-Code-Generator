@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Batch Code Generator</h2>
+        <div class="Program">
+       <h3>Select Bachelors Program:</h3>
+       <select id="item1">
+        <option value="IT">Information Technology</option>
+        <option value="BBA">Bachelor of Business Administration</option>
+        <option value="BSES">Bachelor of Science in Environmental Science</option>
+       </select>
+       <h3>Select Days:</h3>
+       <select id="item2">
+        <option value="TTS">TTS</option>
+        <option value="MWF">MWF</option>
+        <option value="TWT">TWT</option>
+       </select>
+       <h3>Select Timing:</h3>
+       <select id="item3">
+        <option value="1-3">01:00 PM - 03:00 PM</option>
+        <option value="3-5">03:00 PM - 05:00 PM</option>
+        <option value="5-7">05:00 PM - 07:00 PM</option>
+       </select>
+    </div>
+       <button onclick="chack()" >Generate Batch Code</button>
+
+       <div class="para">
+        <p> Show Result ----------------- </p>
+       </div>
+    </div>
+    <script src="logic.js"> </script>
+</body>
+</html>
